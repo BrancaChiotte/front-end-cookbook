@@ -6,7 +6,11 @@ body {
   /*  100% of the height  */
   height: 100vh;
   /* set the body display to grid */
-  display: grid;
+ /* display: grid;*/
   /* center the grid contents */
-  place-items: center;
+ /* place-items: center;*/
+
+ text-align: center;
+ margin: 100px 0;
+ font-family: roboto;
 }
