@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  padding: 50px 50px;
+  text-align: left;
+  font-family: roboto;
+}
+
+
+div {
+  width: 100px;
+  height: 70px;
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  transition: width 2s;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+div:hover {
+  width: 300px;
+}
+
+/* Standard syntax */
+#div1 {
+  transition-timing-function: linear;
+}
+
+#div2 {
+  transition-timing-function: ease;
+}
+#div3 {
+  transition-timing-function: ease-in;
+}
+#div4 {
+  transition-timing-function: ease-out;
+}

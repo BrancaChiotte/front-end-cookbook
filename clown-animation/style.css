@@ -1,0 +1,19 @@
+#container {
+  height: 250px;
+  background-color: #9ad3de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 50px;
+}
+
+#clown:hover {
+  transform: scale3d(1.2, 1.2, 1) rotate(45deg);
+}
+
+#clown {
+  transition: transform 0.1s;
+/* long version:
+  transition-property: transform;
+  transition-duration: 0.1s;*/
+}

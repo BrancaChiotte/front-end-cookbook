@@ -1,0 +1,68 @@
+
+body {
+  margin: 50px 50px;
+  font-family: roboto;
+}
+
+#container {
+  padding: 50px 50px;
+  text-align: center;
+}
+
+
+#title {
+  text-align: center;
+  animation: drop 1s;
+}
+
+
+@keyframes drop {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+#circle {
+  background-color: #343434;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 100px auto;
+  animation: disappear 1s infinite alternate linear;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+#about {
+  text-align: center;
+  animation: delayExit 1s 5s forwards;
+}
+
+@keyframes delayExit {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(1000px);
+  }
+}
+
+
+
+
+
